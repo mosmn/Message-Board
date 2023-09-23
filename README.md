@@ -2,7 +2,7 @@
 
 This is a simple message board application built using Express.js and MongoDB with the Pug templating engine for the views.
 
-- [Live Demo](#) (Add your live demo link here)
+- [Live Demo](#)
 
 ## Description
 
