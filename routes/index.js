@@ -15,6 +15,10 @@ const messages = [
 ];
 
 router.get("/", function (req, res, next) {
+  messages.forEach((message) => {
+    message.formattedAdded = new Date(message.added).toLocaleString();
+  });
+
   res.render("index", { title: "Message Board", messages: messages });
 });
 
