@@ -1,4 +1,4 @@
-# Message Board 
+# Message Board
 
 This is a simple message board application built using Express.js and MongoDB with the Pug templating engine for the views.
 
@@ -8,21 +8,7 @@ This is a simple message board application built using Express.js and MongoDB wi
 
 The Mini Message Board is a basic web application that allows users to post and view messages. Users can access the main message board ("/") to see existing messages and submit their own messages via the new message form ("/new"). Messages are displayed with the user's name, message text, and the date they were added.
 
-## Project Setup
-
-1. **Project Initialization**: To set up the project, I used [express-generator](https://expressjs.com/en/starter/generator.html) to create a basic project structure. You can also set it up manually.
-
-2. **Git Repository**: I initialized a Git repository in the project directory to track changes.
-
-   ```bash
-   git init
-   ```
-
-3. **Git Ignore**: I created a `.gitignore` file to exclude the `node_modules` directory from version control.
-
-   ```
-   node_modules/
-   ```
+**Project Initialization**: To set up the project, I used [express-generator](https://expressjs.com/en/starter/generator.html) to create a basic project structure. You can also set it up manually.
 
 ## Approach
 
